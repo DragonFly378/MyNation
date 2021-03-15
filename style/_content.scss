@@ -1,0 +1,44 @@
+.content {
+  .about-us {
+    h1 {
+      font-size: 36px !important;
+      margin-top: 60px;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      color: #9b2235;
+    }
+    p {
+      margin-top: 13px;
+      margin-bottom: 70px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px !important;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+    }
+  }
+
+  .visi-misi {
+    background-color: #9b2235 !important;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    p {
+      margin-top: 50px;
+      font-family: Helvetica;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      text-align: justify;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+nav {
+  &.navbar-nation {
+    background-color: #9b2235;
+  }
+
+  .nav-item {
+    padding-right: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    .active {
+      font-weight: 600 !important;
+    }
+    .nav-link {
+      &:hover {
+        color: #f6c338 !important;
+        transition: easejgfjh -in-out 0.2s;
+      }
+    }
+  }
+}
