@@ -10853,10 +10853,9 @@ nav .nav-item .nav-link:hover {
   margin-bottom: 70px;
   font-family: "Helvetica", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 600;
   font-size: 14px !important;
   line-height: 19px;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.09em;
 }
 
@@ -10882,5 +10881,65 @@ nav .nav-item .nav-link:hover {
   line-height: 19px;
   text-align: justify;
   letter-spacing: 0.09em;
+}
+
+.content .program h1 {
+  font-size: 36px !important;
+  margin-top: 60px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #9b2235;
+}
+
+.content .program .card2 {
+  margin: 20px 20px;
+  background: #ffffff;
+  -webkit-box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 27px 30px 40px 30px;
+}
+
+.content .program .judul {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 132.99%;
+  /* or 24px */
+  text-align: center;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin-top: 16px;
+  color: #000000;
+}
+
+.content .program article {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #9b2235;
+}
+
+footer a {
+  color: aqua;
+  text-decoration: none !important;
+}
+
+footer a:hover {
+  color: azure;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 /*# sourceMappingURL=style.css.map */

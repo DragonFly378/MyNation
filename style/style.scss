@@ -2,3 +2,7 @@
 @import "navbar";
 @import "content";
 @import "font";
+
+html {
+  scroll-behavior: smooth;
+}
